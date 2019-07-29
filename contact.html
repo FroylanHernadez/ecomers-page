@@ -93,7 +93,6 @@
     },
     messages: {
       name: "Please enter your name!",
-      },
       email: "Please enter a valid email address",
       agree: "Please accept our policy"
     },
@@ -102,7 +101,7 @@
       // Add the `help-block` class to the error element
       error.addClass( "help-block" );
 
-      if ( element.prop( "type" ) === "checkbox" ) {
+      if (element.prop( "type" ) === "checkbox" ) {
         error.insertAfter( element.parent( "label" ) );
       } else {
         error.insertAfter( element );
